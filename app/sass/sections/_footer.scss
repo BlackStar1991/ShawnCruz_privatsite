@@ -1,0 +1,119 @@
+.footer{
+  width: 100%;
+  min-height: 359px;
+  margin-top: 60px;
+  background-color: $footerColor;
+}
+
+.footerWrapper{
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  padding: 0;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.men-box{
+  width: 100%;
+  font-weight:300;
+
+
+  &__manName{
+    margin-top: 68px;
+    padding-left: 19px;
+    font-size: 23px;
+    color: #fff;
+    border-left: 3px solid  $blue;
+  }
+
+  &__phrath{
+    position: relative;
+    height: 81px;
+    margin-top: 38px;
+
+    color: #a0a0a0;
+    font-size: 1em;
+    line-height: 22px;
+    overflow: hidden;
+  }
+  &__socAllButtons{
+    width: 100%;
+    margin-top: 34px;
+  }
+  &__socButton{
+    float: left;
+
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+    &:not(:first-child){
+      margin-left: 12px;
+    }
+    &:hover{
+      color: $blue;
+      transition: all, 0.2s;
+    }
+  }
+
+  &__thoughts{
+    margin-top: 38px;
+  }
+  &__mind{
+
+
+      margin-top: 20px;
+
+
+
+    i{
+      float: left;
+      width: 13px;
+      height: 20px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #fff;
+    }
+    span{
+      display: inline-block;
+      position: relative;
+      width: 267px;
+      height: 22px;
+      padding-left: 13px;
+      color: #eee;
+      font-size: 14px;
+      line-height: 22px;
+      overflow: hidden;
+    }
+  }
+
+
+  &__miniGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 17px;
+
+    width: 100%;
+  }
+  &__wrapperGallery{
+
+    width: 100%;
+    margin-left: -13px;
+  }
+
+  &__minPhoto{
+    max-width: 60px;
+    margin-top: 13px;
+    border: 1px solid #626262;
+    //&:not(:first-child),
+    //&:not(:nth-of-type(4)){
+    //  margin-left: 13px;
+    //}
+  }
+
+
+
+
+}
