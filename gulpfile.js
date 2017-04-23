@@ -93,6 +93,7 @@ gulp.task('images', ['sprite'], function () {
                 speed: 4
             })],
             interlaced: true
+
         }))
         .pipe(gulp.dest('dist/img'));                   // where to put the files
 });
